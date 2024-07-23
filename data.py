@@ -1,0 +1,11 @@
+login = "test112233"
+password = "123123"
+firstName = "Test"
+password2 = "1111111111111111111"
+firstName2 = "Test2"
+
+url = "https://qa-scooter.praktikum-services.ru"
+url_login = url + "/api/v1/courier/login"
+url_create = url + "/api/v1/courier"
+url_delete = url + "/api/v1/courier/"
+url_create_order = url + "/api/v1/orders"
