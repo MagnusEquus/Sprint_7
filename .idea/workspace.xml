@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a278f87d-3d36-475a-b844-b35bfc867467" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_order_create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_order_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_order_accept.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_order_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
     &quot;Python tests.Python tests for test_create_courier.TestCreate.test_create_same_login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_courier.TestCreate.test_create_without_field.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_courier.TestCreate.test_create_without_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_delete.TestDelete.test_delete_successful_body.executor&quot;: &quot;Debug&quot;,
     &quot;Python tests.Python tests for test_login.TestLogin.test_auth.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_login.TestLogin.test_login_without_fields.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_order_create.TestCreateOrder.executor&quot;: &quot;Run&quot;,
@@ -54,7 +54,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_order_create.TestCreateOrder">
+  <component name="RunManager" selected="Python tests.Python tests for test_delete.TestDelete.test_delete_successful_body">
+    <configuration name="Python tests for test_delete.TestDelete.test_delete_successful_body" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_delete.TestDelete.test_delete_successful_body&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_login.TestLogin.test_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="ENV_FILES" value="" />
@@ -115,28 +130,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_create.TestCreate.test_create_without_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_7" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_create.TestCreate.test_create_without_field&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_delete.TestDelete.test_delete_successful_body" />
         <item itemvalue="Python tests.Python tests for test_order_create.TestCreateOrder" />
         <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_login_without_fields" />
         <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_auth" />
         <item itemvalue="Python tests.Python tests for tests.test_create.TestCreate.test_create_same_login" />
-        <item itemvalue="Python tests.Python tests for tests.test_create.TestCreate.test_create_without_field" />
       </list>
     </recent_temporary>
   </component>

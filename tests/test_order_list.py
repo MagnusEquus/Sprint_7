@@ -7,7 +7,7 @@ import allure
 class TestOrderList:
 
     @allure.title('Проверяем что можно получить список заказов')
-    @allure.description('Делаем запрос на список заказов, смотрим что в теле есть текст')
+    @allure.description('Делаем запрос на список заказов, проверяем код ответа и что список заказов в ответе не пустой')
     def test_get_orders(self):
         payload = {
             "firstName": "Naruto",
@@ -22,4 +22,5 @@ class TestOrderList:
         }
         requests.post(data.url_create_order, data=json.dumps(payload))
         response = requests.get(data.url_create_order)
-        assert response.json()
+        print(response.json())
+        assert response.status_code == 200 and response.json()["orders"]
