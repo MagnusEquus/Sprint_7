@@ -23,6 +23,3 @@ def clear_courier():
     helpers.delete_courier(data.login, data.password)
     yield
     helpers.delete_courier(data.login, data.password)
-
-# @pytest.fixture()
-# def order():
